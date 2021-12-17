@@ -5,7 +5,6 @@ import Loading from "./component/Loading";
 const Login = lazy(() => import("./pages/Login"));
 const Profile = lazy(() => import("./pages/Profile"));
 const Company = lazy(() => import("./pages/Company"));
-const Edit = lazy(() => import("./pages/EditCompany"));
 const Home = lazy(() => import("./pages/Home"));
 
 function App() {
@@ -16,7 +15,6 @@ function App() {
           <Route exact path="/" element={<Login />} />
           <Route  path="/profile" element={<Profile />} />
           <Route  path="/company" element={<Company />} />
-          <Route  path="/edit" element={<Edit />} />
           <Route  path="/home" element={<Home />} />
         </Routes>
       </Suspense>
