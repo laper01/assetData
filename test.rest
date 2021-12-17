@@ -1,0 +1,6 @@
+POST https://petronasdemo.aa.assetdata.xyz/api/v1/a/hash-login
+content-type: application/json
+
+{
+    "email":"user_test_asset@mailinator.com","password":"VW1Gb1lYTnBZVEl3TUNFclFsSnVjbTlaUVVSemF5RT0rWUFEc2shIQ==","expire":3600,"type":"automatic"
+}
